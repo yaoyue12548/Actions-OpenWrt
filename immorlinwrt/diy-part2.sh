@@ -20,9 +20,9 @@
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
 # 对于强迫症的同学（有报错信息、或Lean源码编译出错的情况），请尝试删除冲突的插件
-# rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd*,miniupnpd-iptables,wireless-regdb}
-# rm -rf feeds/luci/applications/luci-app-alist
-# rm -rf feeds/luci/packages/net/alist
+ rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd*,miniupnpd-iptables,wireless-regdb}
+ rm -rf feeds/luci/applications/luci-app-alist
+ rm -rf feeds/luci/packages/net/alist
 
 rm -rf OpenClash
 ##---------------- OpenClash ----------------------------
